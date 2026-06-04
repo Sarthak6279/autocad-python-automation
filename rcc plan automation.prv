@@ -1,0 +1,15 @@
+;;; Visual LISP make file [V1.0] rcc plan automation saved to:[C:/Users/sarth/New folder (12)] at:[6/3/26] 
+(PRV-DEF (:target . "rcc plan automation.VLX")
+	 (:active-x . T)
+	 (:separate-namespace)
+	 (:protected . T)
+	 (:load-file-list
+	   (:lsp "SarthakG_PlanEngine.lsp")
+	   (:lsp "master_construction_drawing.lsp")
+	 )
+	 (:require-file-list)
+	 (:ob-directory)
+	 (:tmp-directory)
+	 (:optimization . st)
+)
+;; EOF

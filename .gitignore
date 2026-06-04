@@ -1,35 +1,22 @@
-# Python
+# Ignore Python virtual environment
+.venv/
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-.venv
+*.pyc
+requirements.txt
+generate_portfolio.py
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
+# Ignore scratch Python compiler script
+compile_fas.py
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Project specific
-*.dwg
+# Ignore AutoCAD backup and temp files
 *.bak
+*.sv$
 *.dwl
 *.dwl2
-Lib/
-Scripts/
-*.egg-info/
-dist/
-build/
 
-# Temporary files
-*.tmp
-*.temp
+# Ignore project workspace settings
+.github/
+
+# Ignore raw AutoLISP source files to protect intellectual property
+*.lsp
+!portfolio_generator.lsp
